@@ -101,9 +101,9 @@ form.addEventListener("submit", (e) => {
         result.innerHTML = `<p><i class="fa-solid fa-circle-check"></i>We've got you covered! </br> Contact us now to get your free estimate.</p>`
         console.log("Yes")
     } else if(input.length == 0){
-        result.innerHTML = `<p><i class="fa-solid fa-circle-info"></i>Enter your city or zipcode in the field above. </p> `
+        result.innerHTML = `<p><i class="fa-solid fa-circle-info"></i>Enter your city or zip code in the field above.</p> `
     }else{
-        result.innerHTML =`<p><i class="fa-solid fa-circle-xmark"></i>Unfortunatly we do not serve the area entered above. Please make sure the spelling is correct or check back later for future updates </p>`
+        result.innerHTML =`<p><i class="fa-solid fa-circle-xmark"></i>Unfortunatly we do not serve the area entered above. Please make sure the spelling is correct or check back later for future updates.</p>`
         console.log("No")
     }
 
