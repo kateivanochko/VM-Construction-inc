@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/7eba5addb0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png" href="images/logoicon.png">
+    <title>General Contractor | VM Construction Inc</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <a class="alogo" href="index.html"><img class="logo" src="images/vm logo.png" style="width: 90px;height:60px;"></a>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Heading -->
+    <div class="contact-heading">
+        <img src="images/contact1.png" alt="">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </div>
+
+    <!-- Main Contact Page -->
+
+    <div class="contact-page container">
+        <div class="contact1">
+            <div class="location">
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i><h3>Location</h3></li>
+                </ul>
+                <p>Lake Zurich, IL</p>
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <li><i class="fa-solid fa-mobile-screen-button"></i></i><h3>Get in Touch</h3></li>
+                </ul>
+                <ul>
+                    <li><a href="tel:7089280270">+1 (708) 928-0270</a></li>
+                    <li><a href="mailto:vmconstructioninc052017@gmail.com">vmconstructioninc052017@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="service-area">
+                <h3>Service Area</h3>
+                <p>Check if we serve your area:</p>
+                <form id="form" action="/" method="get">
+                    <input type="text" id="area" placeholder="City / ZipCode">
+                    <button type="submit">Search</button>
+                </form>
+                <p id="result"><i class="fa-solid fa-circle-info"></i>Enter your city or zipcode in the field above.</p>
+
+            </div>
+        </div>
+
+        <div class="contact2">
+            <div>
+                <iframe class="business-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2955.2955438167005!2d-88.11148092389851!3d42.2081276712075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fa18bc9291bc9%3A0x52f678c628702b84!2sVM%20Construction%20Inc!5e0!3m2!1sen!2sus!4v1707178017647!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="hours">
+                <h3>Business Hours</h3>
+                <div class="schedule">
+                    <div>
+                        <p>Mon-Fri</p>
+                        <p>Sat</p>
+                        <p>Sun</p>
+                    </div>
+                    <div>
+                        <p>8am - 6pm</p>
+                        <p>8am - 12pm</p>
+                        <p>Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="showcase-form">
+            <h1>Get Free Estimate</h1>
+            <p>Fill out and submit the form below with project details and we will contact you shortly.</p>
+            <form class="form" action="https://formspree.io/f/xnqedzwp" method="POST">
+    
+                <div class="form1">
+                    <div class="sub-form name-email">
+                        <div class="form-control">
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-control">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                    </div>
+                    <div class="sub-form tel-loc">
+                        <div class="form-control">
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-control">
+                            <input type="text" name="location" placeholder="Location" required>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <div>
+                            <input type="submit" value="Get Quote" class="btn btn-primary">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="form2">
+                    <div class="form-control">
+                        <textarea name="decription" placeholder="Project Description" rows="4" required></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <section class="container flex">
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><i class="fa-solid fa-phone"></i><a href="tel:7089280270">+1 (708) 928-0270</a></li>
+                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:vmconstructioninc052017@gmail.com">Email Us</a></li>
+                </ul>
+            </div>
+
+            <div class="social">                
+                <img src="images/logohorizontal.png" style="width:100px;height:25px;">
+                <ul>
+                    <li><a href="https://maps.app.goo.gl/Fa2MSKe44yeNopXs8" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="https://www.facebook.com/fbcomvmconstructioninc052017/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+                <p>&copy; VM Construction Inc 2024</p>
+            </div>
+
+        </section>
+    </footer>
+
+</body>
+</html>
